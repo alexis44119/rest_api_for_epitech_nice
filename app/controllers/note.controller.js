@@ -128,7 +128,7 @@ exports.comment = async (req, res) =>{
     res.send(comment);
 };
 
-// lis le commentaire
+// lis les commentaires d'un post
 exports.getComment = async (req, res) =>{
     const note = await Note.findOne({ _id: req.params.noteId }).populate(
         "comments"

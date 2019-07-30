@@ -6,7 +6,13 @@
   "author": "Alexis Breheret",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "expect": "^24.8.0",
     "express": "^4.16.3",
-    "mongoose": "^5.2.8"
+    "mocha": "^6.2.0",
+    "mongoose": "^5.2.8",
+    "request": "^2.88.0",
+    "should": "^13.2.3"
   }
 }

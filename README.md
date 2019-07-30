@@ -106,3 +106,15 @@ Récupérer les commentaires d'une note :
 
 Une effectue une requête GET sur <http://localhost:8080/notes/:idDeLaNote/comment>
 
+## Bilan
+
+Reste à faire : 
+
+Par manque de temps n'ai pas réussi à implanter la gestion des sessions pour l'utilisateur, de ce fait le système de droits ne fonctionne pas
+
+Pour cela, il aurait fallut utiliser le npm passport qui permet une gestion complète des sessions. Ce NPM fonctionnait nativement avec Mongodb.
+
+Je n'ai pas non plus réussi à déployer l'api sur Docker à cause notamment de la connectivité à la base de données Mongo que je n'arrivais pas à paramétrer. (la commande docker-compose up --build tombe en erreur)
+
+
+Enfin, il aurait été interessant de hasher les mots de passe lors de la création d'un user de manière à ce qu'ils ne soient pas stockés en clair dans la bdd.

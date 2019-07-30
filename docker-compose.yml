@@ -1,17 +1,16 @@
 version: '2'
 
-# Define the services/containers to be run
 services:
-  docker_rest:  #name of your service
-    build: ./ # specify the directory of the Dockerfile
+  docker_rest:
+    build: ./
     ports:
-      - "8080:8080" #specify ports forwarding
+      - "8080:8080"
     links:
-      - database # link this service to the database service
+      - database
     volumes:
       - .:/usr/src/app
     depends_on:
       - database
 
-  database: # name of the service
-    image: mongo # specify image to build container from
+  database:
+    image: mongo
