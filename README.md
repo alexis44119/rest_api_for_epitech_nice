@@ -19,7 +19,7 @@ npm install
 node server.js
 ```
 
-API accessible sur <http://localhost:3000>
+API accessible sur <http://localhost:8080>
 
 ## Tutoriel
 On utilise Postman ou Fiddler pour effectuer des appels à  l'API
