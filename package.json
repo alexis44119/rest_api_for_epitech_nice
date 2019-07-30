@@ -1,0 +1,12 @@
+{
+  "name": "restful_api_for_epitech_nice",
+  "version": "1.0.0",
+  "description": "A Restful API for Epitech Nice",
+  "main": "server.js",
+  "author": "Alexis Breheret",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.8"
+  }
+}
