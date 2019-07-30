@@ -26,7 +26,7 @@ On utilise Postman ou Fiddler pour effectuer des appels à  l'API
 on interpretera les résultats via le corps des réponses
 
 
-Créer un user : 
+### Créer un user : 
 
 
 Une effectue une requête POST sur <http://localhost:8080/register>
@@ -41,7 +41,7 @@ et avec le body
 }
 ```
 
-Créer une note : 
+### Créer une note : 
 
 
 Une effectue une requête POST sur <http://localhost:8080/notes>
@@ -56,19 +56,19 @@ et avec le body
 }
 ```
 
-Récupérer toutes les notes : 
+### Récupérer toutes les notes : 
 
 
 Une effectue une requête GET sur <http://localhost:8080/notes>
 
 
-Récupérer une note précise : 
+### Récupérer une note précise : 
 
 
 Une effectue une requête GET sur <http://localhost:8080/notes/:idDeLaNote>
 
 
-Modifier une note : 
+### Modifier une note : 
 
 
 Une effectue une requête PUT sur <http://localhost:8080/notes>
@@ -83,13 +83,13 @@ et avec le body
 }
 ```
 
-Supprimer une note  : 
+### Supprimer une note  : 
 
 
 Une effectue une requête DELETE sur <http://localhost:8080/notes/:idDeLaNote>
 
 
-Rédiger un commentaire : 
+### Rédiger un commentaire : 
 
 
 Une effectue une requête POST sur <http://localhost:8080/notes/:idDeLaNote/comment>
@@ -101,7 +101,7 @@ et avec le body
     "content":"contenu_du_commentaire"
 }
 ```
-Récupérer les commentaires d'une note : 
+### Récupérer les commentaires d'une note : 
 
 
 Une effectue une requête GET sur <http://localhost:8080/notes/:idDeLaNote/comment>
