@@ -2,7 +2,10 @@
 
 API Rest permettant la création de d'utilisateurs, les fonctions CRUD (Create, Read, Update et Delete) sur des notes avec rédaction de commentaires
 
-## utilisation
+Il faut une base de données MongoDB ainsi qu'un logiciel client tel que Studio3T ou MongoDB Compass Community
+
+Url de la base de données : mongodb://localhost:27017/REST_API
+## Utilisation
 
 1. Installer les dépendances
 
