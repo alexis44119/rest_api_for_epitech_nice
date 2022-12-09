@@ -5,11 +5,11 @@
   "main": "server.js",
   "author": "Alexis Breheret",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.20.1",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "expect": "^24.8.0",
-    "express": "^4.16.3",
+    "express": "^4.18.2",
     "mocha": "^6.2.0",
     "mongoose": "^5.2.8",
     "request": "^2.88.0",
